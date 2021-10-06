@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:wght@500&display=swap");
+.header {
+  background: rgb(111, 92, 179);
+  border-bottom-left-radius:85px;
+  border-bottom-right-radius:85px;
+  color: rgb(238, 229, 229);
+  /* text-align: left; */
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: ArquitectaBold;
+  letter-spacing: 0px;
+  font-size: 17px;
+  text-align: center;
+}
+
+
+.headImg {
+  width: 55px;
+  height: 55px;
+  transform: "rotate(270deg)";
+}
+
+body {
+  background-color: rgb(248, 248, 248);
+  /* background: radial-gradient(white, #928b9e); */
+  /* background: radial-gradient(40% 50%,rgb(111,92,179), white); */
+
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+
+}
+
+
+nav ul li a {
+  color: rgb(20, 20, 20);
+  padding: 0 90px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: rgb(187, 178, 178);
+}
+
+.home {
+  text-align: center;
+  padding: 25px;
+  font-family: "Piazzolla", serif;
+}
+
+div p {
+  font-weight: normal;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Piazzolla", serif;
+  width: 100%;
+}
+
+/*Home*/
+.grid {
+  display: flex;
+  border-radius: 25px;
+  margin: 50px;
+  flex-direction: column;
+  text-align: left; 
+
+}
+.items{
+  margin: 20px;
+  border: 5px solid lightblue;
+  padding: 10px;
+}
+.items:nth-child(2n) {
+    background-color: gray;
+}
+.footer {
+  border-top-left-radius:75px;
+  border-top-right-radius:75px;
+  margin-top: 10px;
+  padding: 10px;
+  background: rgb(111, 92, 179);
+  text-align: center;
+  text-transform: uppercase;
+
+  font-family: ArquitectaBold;
+  color: rgb(26, 24, 24);
+
+}

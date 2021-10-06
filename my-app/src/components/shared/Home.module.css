@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Piazzolla", sans-serif;
+}
+
+._box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* background-color: rgb(94, 32, 114); */
+    margin-bottom: 2%;
+    font-family: "Piazzolla", serif;
+}
+
+.startpage{
+    padding: 2%;
+}
+.container {
+    width: 1200px;
+    margin-left: 55px;
+    height: 460px; 
+    border: 2px solid rgb(209, 190, 190);
+    border-radius: 9px;
+}
